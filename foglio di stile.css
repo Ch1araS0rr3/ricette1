@@ -1,0 +1,83 @@
+/*STYLE*/
+body {
+    background-color:##E6FDFF ;
+    font-family: 'Arial','Corbel','sans-serfis';
+    margin:0px;
+}
+/*Testata*/
+
+#header  {
+   background-color: #B07BAC ;
+}
+
+h1 {
+    font-size:36px;
+    color: #37433C;
+    padding: 0px ;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+   
+    color: #37433C;
+    margin: 0px;
+    text-align: center;
+}
+
+#nav{
+    background-color: #dda4d8;
+    color: #37433C;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#nav li{
+    display: inline-block;
+}
+
+#nav li a{
+    color: #121614;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#nav li:hover{
+background-color: #B07BAC;
+}
+
+/*Contenuto*/
+
+#content  {
+   width: 600px ;
+   margin:30px auto;
+}
+
+#content h3 {
+ color: #121614;
+}
+
+#content h4 {
+    color: #5F7367;
+    border-bottom: #B07BAC solid 4px;
+    }
+
+a {
+    color: #121614;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.termini,a {
+    color:green;
+    font-family: italic;
+}
+
+.immagini_ricette{
+    width: 350px;
+}
